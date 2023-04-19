@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +7,106 @@
     <meta name="keywords" content="resume, stepanenko" />
     <meta name="description" content="сайт резюме иван степаненко" />
     <title>Stepanenko Resume</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <img src="avatar.jpg" alt="foto avatar stepanenko" class="foto" />
+        <h1>Иван Степаненко</h1>
+        <hr />
+        <article class="info">
+          <p>
+            Мне почти 37 лет и я решил овладеть професией
+            <strong> фронт-энд разработчика</strong>.
+          </p>
+          <p>Люблю <em> пить пиво</em>, залипать в Ютуб и играть в ММОРПГ</p>
+        </article>
+
+        <article class="socseti">
+          <h4>Социальные сети:</h4>
+
+          <a href="https://www.instagram.com/13_skeptic_/" target="_blank"
+            >Instagram</a
+          >
+          |
+          <a
+            href="https://www.youtube.com/@bahbkacycahih3562/featured"
+            target="_blank"
+            >YouTube</a
+          >
+        </article>
+      </header>
+      <main>
+        <section>
+          <article class="card hobbi">
+            <h2>Мои хобби</h2>
+            <ul>
+              <li>ММОРПГ</li>
+              <li>Прыжки с парашютом</li>
+              <li>Аквариумные рыбки</li>
+              <li>Жиросжигание</li>
+            </ul>
+          </article>
+          <article class="card opit">
+            <h2>Опыт работы</h2>
+            <table class="table">
+              <!-- <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+              </tr> -->
+              <tr>
+                <td>ЧОП "Призма"</td>
+                <td>Охранник</td>
+                <td>2009-2012</td>
+              </tr>
+              <tr>
+                <td>ИМ "КАМ"</td>
+                <td>Курьер</td>
+                <td>2012-2013</td>
+              </tr>
+              <tr>
+                <td>ТОВ "ПАРСЕР"</td>
+                <td>Логист, Кладовщик</td>
+                <td>2013-2022</td>
+              </tr>
+              <tr>
+                <td>Фронт-энд разработчик</td>
+                <td>Студент</td>
+                <td>2023-сейчас</td>
+              </tr>
+            </table>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <article class="card kontakt">
+          <h3>Связаться со мной</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите ФИО" />
+            </div>
+            <div class="form-group">
+              <label for="mail">Ваш email</label>
+              <input type="email" id="mail" placeholder="Введите адрес почты" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea
+              id="message"
+              cols="25"
+              rows="5"
+              placeholder="Введите текст..."
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn">Отправить!</button>
+          </div>
+        </article>
+      </footer>
+    </div>
+  </body>
 </html>
